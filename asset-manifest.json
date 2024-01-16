@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/repo-name/static/css/main.30539de1.css",
+    "main.js": "/repo-name/static/js/main.bb7b83db.js",
+    "static/media/shopCart.svg": "/repo-name/static/media/shopCart.c2b203dfc56e206d991cab3c40045c80.svg",
+    "index.html": "/repo-name/index.html",
+    "static/media/trash-fill.svg": "/repo-name/static/media/trash-fill.dcb6ae5635dcbd3a5e659475df22c796.svg",
+    "main.30539de1.css.map": "/repo-name/static/css/main.30539de1.css.map",
+    "main.bb7b83db.js.map": "/repo-name/static/js/main.bb7b83db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30539de1.css",
+    "static/js/main.bb7b83db.js"
+  ]
+}
