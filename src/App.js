@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { Provider } from 'react-redux';
+import ProductDetails from './component/shared/ProductDetails';
+import Navbar from './component/shared/Navbar';
+import ShopCart from './component/shared/ShopCart';
+
+// components
+import Store from './component/Store';
+import Footer from './component/Footer';
+
+
+// redux
+import store from './redux/store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Navbar />
+      <Routes>
+        <Route path='/products' element={<Store/>} />
+        <Route path='/products/:id' element={<ProductDetails />} />
+        <Route path='/shopCart' element={ <ShopCart /> } />
+        <Route path='/*' element={ <Navigate  to='/products' /> } />
+      </Routes>
+      < Footer/>
+    </Provider>
   );
 }
 

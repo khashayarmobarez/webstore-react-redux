@@ -1,0 +1,41 @@
+.Container {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    height: 10rem;
+    border: 1px solid gray;
+    margin-top: 1.6rem;
+}
+
+.productsTitle,h2,h3,span{
+    background-color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 4.5rem;
+    background-color: #fff;
+}
+
+.buttons button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 20px;
+    color: #fff;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+button img {
+    background-color: plum;
+    fill: #fff;
+    height: 18px;
+}

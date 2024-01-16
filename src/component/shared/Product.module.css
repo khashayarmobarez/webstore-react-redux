@@ -1,0 +1,98 @@
+.container {
+    background-color: #ffffff;
+    height: 26rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin: 5px 1rem 1.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #317773;
+}
+
+.container:hover {
+    transition: 0.2s ease;
+    box-shadow: 0 0 10px 1px #317773;
+}
+
+.container img {
+    border-radius: 10px;
+    width: 90%;
+    height: 55%;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.container h2 {
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 0px 0 0 1rem;
+}
+
+.container p {
+    background-color: #ffffff;
+    margin: 0 0 3rem 1rem ;
+}
+
+.buttonsContainer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0.8rem 1rem;
+    width: 85%;
+    height: 2rem;
+}
+
+.Link{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #906fb9;
+}
+
+.Link:hover {
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+
+.buttons {
+    margin-top: 5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 4.5rem;
+    height: 2rem;
+}
+
+.buttons button {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2D1F9;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    }
+
+.buttons button:hover{
+    transition: 0.2s ease;
+    height: 2.1rem;
+}
+
+.buttons span {
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.buttons button img {
+    height: 75%;
+    margin-bottom: 10px;
+    background-color: #E2D1F9;
+}  
+
+.plusminus{
+    width: 2rem;
+    font-size: 22px;
+}
