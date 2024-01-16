@@ -7,6 +7,12 @@
     background-color: #fff;
 }
 
+.Container h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
 .FooterMader {
     margin: 5rem;
 }

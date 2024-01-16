@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E2D1F9;
+    background-color: #7f6b99;
     border: none;
     border-radius: 7px;
     color: #fff;
@@ -87,9 +87,10 @@
 }
 
 .buttons button img {
-    height: 75%;
+    height: 1rem;
+    width: 1rem;
     margin-bottom: 10px;
-    background-color: #E2D1F9;
+    background-color: #7f6b99;
 }  
 
 .plusminus{
